@@ -1,0 +1,40 @@
+import unittest
+import pytest
+from pages.login_page import LoginPage
+from pages.dashboard_page import DashBoardPage
+from utilities.teststatus import QAStatus
+import test_data.testData as td
+from base.basepage import BasePage
+from pytest_html import extras
+
+
+@pytest.mark.usefixtures("setup")
+class TestLoginFunctionality(unittest.TestCase, BasePage):
+
+    @pytest.fixture(autouse=True)
+    def classSetup(self):
+        self.loginPage = LoginPage(self.driver)
+        self.dashboardPage = DashBoardPage(self.driver)
+        self.testStatus = QAStatus(self.driver)
+
+    def test_title(self):
+        print('Validating landing in Login Page.')
+        assert "Your store. Login" in self.driver.title
+        print('Login page launched successfully')
+
+    def test_valid_login(self):
+        print('Performing login')
+        self.loginPage.login(email=td.testData("email"), password=td.testData("password"))
+        self.testStatus.markFinal(self.dashboardPage.isAt, "login failed")
+        print('Login successful')
+
+    def test_invalid_login(self):
+        print('Performing invalid login')
+        self.loginPage.login(email=td.testData("wrong_email"), password=td.testData("wrong_password"))
+        self.testStatus.markFinal(self.loginPage.isAt, "Invalid login failed")
+        print('Login unsuccessful')
+
+    def test_customer_creation(self):
+        self.loginPage.login(email=td.testData("email"), password=td.testData("password"))
+        self.testStatus.markFinal(self.dashboardPage.isAt, "login failed")
+        self.dashboardPage.verify_add_customer()

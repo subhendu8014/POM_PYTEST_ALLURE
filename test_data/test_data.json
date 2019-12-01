@@ -1,0 +1,8 @@
+{
+    "environment_url": "https://admin-demo.nopcommerce.com/",
+    "browser": "chrome",
+    "email": "admin@yourstore.com",
+    "password": "admin",
+    "wrong_email": "admin1234@yourstore.com",
+    "wrong_password": "admin1234"
+}

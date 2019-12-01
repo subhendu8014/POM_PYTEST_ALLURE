@@ -1,0 +1,56 @@
+12/01/2019 12:34:47 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 12:34:47 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 12:35:01 PM - LoginPage - INFO: Login button clicked
+12/01/2019 12:35:07 PM - CustomerPage - INFO: Customer drop down clicked
+12/01/2019 12:35:15 PM - CustomerPage - INFO: Customer option clicked
+12/01/2019 12:35:45 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 12:35:45 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 12:35:46 PM - LoginPage - INFO: Login button clicked
+12/01/2019 12:35:52 PM - TestLoginFunctionality - INFO: Login unsuccessful with invalid credential
+12/01/2019 12:36:22 PM - TestLoginFunctionality - INFO: Login page launched successfully
+12/01/2019 12:36:49 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 12:36:50 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 12:36:56 PM - LoginPage - INFO: Login button clicked
+12/01/2019 12:37:02 PM - TestLoginFunctionality - INFO: Login successful with valid credential
+12/01/2019 01:07:31 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 01:07:31 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 01:08:04 PM - LoginPage - INFO: Login button clicked
+12/01/2019 01:08:10 PM - CustomerPage - INFO: Customer drop down clicked
+12/01/2019 01:08:39 PM - CustomerPage - INFO: Customer option clicked
+12/01/2019 01:09:12 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 01:09:12 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 01:09:13 PM - LoginPage - INFO: Login button clicked
+12/01/2019 01:09:19 PM - TestLoginFunctionality - INFO: Login unsuccessful with invalid credential
+12/01/2019 01:09:48 PM - TestLoginFunctionality - INFO: Login page launched successfully
+12/01/2019 01:10:16 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 01:10:16 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 01:10:20 PM - LoginPage - INFO: Login button clicked
+12/01/2019 01:10:26 PM - TestLoginFunctionality - INFO: Login successful with valid credential
+12/01/2019 03:20:08 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:20:08 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:20:12 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:20:18 PM - CustomerPage - INFO: Customer drop down clicked
+12/01/2019 03:20:25 PM - CustomerPage - INFO: Customer option clicked
+12/01/2019 03:20:42 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:20:42 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:20:43 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:20:49 PM - TestLoginFunctionality - INFO: Login unsuccessful with invalid credential
+12/01/2019 03:21:18 PM - TestLoginFunctionality - INFO: Login page launched successfully
+12/01/2019 03:21:47 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:21:47 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:21:53 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:21:59 PM - TestLoginFunctionality - INFO: Login successful with valid credential
+12/01/2019 03:27:10 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:27:10 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:27:15 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:27:21 PM - CustomerPage - INFO: Customer drop down clicked
+12/01/2019 03:27:29 PM - CustomerPage - INFO: Customer option clicked
+12/01/2019 03:27:57 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:27:58 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:27:58 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:28:04 PM - TestLoginFunctionality - INFO: Login unsuccessful with invalid credential
+12/01/2019 03:28:33 PM - TestLoginFunctionality - INFO: Login page launched successfully
+12/01/2019 03:29:02 PM - LoginPage - INFO: Username has been entered successfully
+12/01/2019 03:29:02 PM - LoginPage - INFO: Password has been entered successfully
+12/01/2019 03:29:07 PM - LoginPage - INFO: Login button clicked
+12/01/2019 03:29:13 PM - TestLoginFunctionality - INFO: Login successful with valid credential

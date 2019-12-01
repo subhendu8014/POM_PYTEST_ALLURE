@@ -1,0 +1,5 @@
+[32mINFO    [0m LoginPage:login_page.py:31 Username has been entered successfully
+[32mINFO    [0m LoginPage:login_page.py:35 Password has been entered successfully
+[32mINFO    [0m LoginPage:login_page.py:38 Login button clicked
+[32mINFO    [0m CustomerPage:customer_page.py:26 Customer drop down clicked
+[32mINFO    [0m CustomerPage:customer_page.py:29 Customer option clicked

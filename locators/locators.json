@@ -1,0 +1,62 @@
+[
+  {
+    "pageName": "LoginPage",
+    "name": "welcome_text",
+    "locateUsing": "xpath",
+    "locator": "//strong[contains(text(),'Welcome, please sign in!')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "email_textbox",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='Email']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "password_textbox",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='Password']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "login_button",
+    "locateUsing": "xpath",
+    "locator": "//input[@class='button-1 login-button']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "invalid_login_message",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='message-error validation-summary-errors']"
+  },
+  {
+    "pageName": "DashboardPage",
+    "name": "dashboard_logo",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Dashboard')]"
+  },
+  {
+    "pageName": "CustomerPage",
+    "name": "customer_logo",
+    "locateUsing": "xpath",
+    "locator": "//h1[@class='pull-left']"
+  },
+  {
+    "pageName": "CustomerPage",
+    "name": "customer_drop_down",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Customers')]"
+  },
+  {
+    "pageName": "CustomerPage",
+    "name": "customer_button",
+    "locateUsing": "xpath",
+    "locator": "//li[@class='treeview menu-open']//ul[@class='treeview-menu']//li//span[@class='menu-item-title'][contains(text(),'Customers')]"
+  },
+  {
+    "pageName": "CustomerPage",
+    "name": "add_new_button",
+    "locateUsing": "xpath",
+    "locator": "//a[@class='btn bg-blue']"
+  }
+]

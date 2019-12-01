@@ -1,0 +1,1 @@
+[32mINFO    [0m TestLoginFunctionality:test_login.py:25 Login page launched successfully
